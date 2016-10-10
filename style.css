@@ -18,3 +18,19 @@
     max-width:300px;
     min-width:299px;
 }
+.navigation{
+    margin-left:50px;
+    margin-top:50px;
+}
+
+.nav > li{
+    margin-right:40px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    border: solid;
+    background-color:white;
+    color: black;
+}
+.nav-pills > li > a{
+    color: black;
+}
