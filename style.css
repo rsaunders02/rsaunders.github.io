@@ -34,3 +34,12 @@
 .nav-pills > li > a{
     color: black;
 }
+
+.about_me{
+    margin-left:50px;
+    margin-top:50px;
+}
+.projects{
+    padding-left:20px;
+    padding-right:20px;
+}
