@@ -1,0 +1,20 @@
+.main-header{
+    background-color: black;
+    min-height:500px;
+}
+.main-header > .col-xs-12 > h1{
+    font-family: 'Shadows Into Light';
+    color:white;
+    font-size: 100px;
+}
+
+.main-header > .col-md-3 > h2{
+    font-size: 65px;
+    color:white;
+    padding-left:25px;
+}
+.box{
+    border: red 5px solid;
+    max-width:300px;
+    min-width:299px;
+}
