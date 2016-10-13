@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 240 120" style="enable-background:new 0 0 240 120;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#6D6E71;stroke:#6D6E71;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#8B5E3C;stroke-width:5;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#00AEEF;stroke-miterlimit:10;}
+</style>
+<circle class="st0" cx="171.386" cy="75.123" r="5.479"/>
+<circle class="st0" cx="66.151" cy="75.123" r="5.479"/>
+<path class="st1" d="M28.342,77.808c-0.13,1.124-0.205,2.266-0.205,3.425c0,16.266,13.186,29.452,29.452,29.452
+	s29.452-13.186,29.452-29.452c0-1.159-0.074-2.3-0.205-3.425H28.342z"/>
+<path class="st1" d="M159.848,77.808c-0.13,1.124-0.205,2.266-0.205,3.425c0,16.266,13.186,29.452,29.452,29.452
+	s29.452-13.186,29.452-29.452c0-1.159-0.074-2.3-0.205-3.425H159.848z"/>
+<line class="st2" x1="45.429" y1="22.329" x2="44.744" y2="77.808"/>
+<line class="st2" x1="208.263" y1="22.528" x2="207.578" y2="78.008"/>
+<polygon class="st1" points="45.087,9.315 68.964,41.849 21.21,41.849 "/>
+<polygon class="st1" points="207.921,9.315 231.797,41.849 184.044,41.849 "/>
+<rect x="68.964" y="70.427" class="st0" width="21.502" height="2.929"/>
+<rect x="147.155" y="70.427" class="st0" width="21.502" height="2.929"/>
+<g>
+	<path class="st3" d="M14.398,103.288c11.698-0.095,11.779,9.905,23.477,9.809c11.699-0.095,11.618-10.095,23.317-10.19
+		c11.7-0.095,11.781,9.905,23.481,9.809c11.701-0.095,11.62-10.095,23.321-10.19s11.782,9.905,23.484,9.809
+		c11.701-0.095,11.62-10.095,23.321-10.19c11.702-0.095,11.783,9.905,23.484,9.809c11.703-0.095,11.622-10.095,23.325-10.19
+		s11.785,9.905,23.488,9.809"/>
+</g>
+</svg>
