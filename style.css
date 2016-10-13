@@ -24,7 +24,7 @@
 }
 
 .nav > li{
-    margin-right:40px;
+    margin-right:50px;
 }
 .nav-pills> li > a{
     border: solid;
@@ -36,13 +36,13 @@
 }
 
 .about_me{
-    margin-left:50px;
+    padding-left:50px;
+    padding-right:50px;
     margin-top:50px;
 }
 .projects{
-    margin-left:30px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:50px;
+    padding-right:50px;
     margin-top:50px;
 }
 .projects > h1{
