@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <script src="https://use.fontawesome.com/ef1446f1f7.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
   </head>
   <body>
@@ -25,65 +26,102 @@
       </div>
       <!--navigation bar -->
       <div class="row navigation">
-          <div class="col-md-offset-3 col-md-6 col-sm-9 col-xs-12">
+          <div class="col-md-offset-4 col-md-6 col-sm-8 col-xs-12">
               <ul class="nav nav-pills">
                   <li role="presentation"><a href="#aboutme">About Me</a></li>
                   <li role="presentation"><a href="#project">Projects</a></li>
-                  <li role="presentation"><a href="#resume">Resume</a></li>
                   <li role="presentation"><a href="#contact">Contact Me</a></li>
               </ul>
           </div>
       </div>
       <!--end navigation bar -->
       <!--about me section-->
-      <div class="row about_me" id="aboutme">
-          <div class="col-md-6 col-xs-12">
-              <p class="text-danger">***Please note that this site is still being worked on. ***</p>
-              <h1>About Me</h1>
-              <p class="lead"> Hi! My name is Raina Saunders. I recently graduated from CSU East Bay majoring in Computer science.
-                  I am currently working on an internship at a startup medical company designing the UI and touchscreen control system for an ophthalmic photo-coagulator. I am someone who loves to learn new things and create.
-                  I like to explore more about my field of study through personal projects and indepedent research. I am persistent with a high motivation to succeed and I take that mentality wherever I go. </p>
-          </div>
-          <div class="col-md-6 col-xs-12">
-              <img class="img-responsive center-block img-circle"src="assets/images/mypic.png" alt="profile pic">
+      <div class="container">
+          <div class="row about_me" id="aboutme">
+              <div class="col-md-6 col-xs-12">
+                  <p class="text-danger">***Please note that this site is still being worked on. ***</p>
+                  <h1>About Me</h1>
+                  <p class="lead"> Hi! My name is Raina Saunders. I recently graduated from CSU East Bay majoring in Computer science.
+                      I am currently working on an internship at a startup medical company designing the UI and touchscreen control system for an ophthalmic photo-coagulator. I am someone who loves to learn new things and create.
+                      I like to explore more about my field of study through personal projects and indepedent research. I am persistent with a high motivation to succeed and I take that mentality wherever I go. </p>
+              </div>
+              <div class="col-md-6 col-xs-12">
+                  <img class="img-responsive center-block img-circle"src="assets/images/mypic.png" alt="profile pic">
+              </div>
           </div>
       </div>
       <!--end about me section-->
-      <div class="row projects" id="project">
-          <h1> Projects </h1>
-          <div class="col-sm-6 col-md-4">
-              <div class="thumbnail">
-                  <img src="assets/images/boatattack-01.svg" alt="boats">
-                  <div class="caption">
-                    <h3 class="text-center">Boat Attack</h3>
-                    <p>...</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Description</a>
-                    <a href="#" class="btn btn-default pull-right" role="button"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></p>
+      <!--project section-->
+      <div class="container">
+          <div class="row projects" id="project">
+              <h1> Projects </h1>
+              <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail" id="boat-attatch-thumbnail">
+                      <img src="assets/images/boatattack-01.svg" alt="boats">
+                      <div class="caption">
+                        <h3 class="text-center">Boat Attack</h3>
+                        <p><input type="button" class="btn btn-primary" id="boat-project" value="Description">
+                        <a href="#" class="btn btn-default pull-right" role="button"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></p>
+                      </div>
                   </div>
               </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-              <div class="thumbnail">
-                  <img src="assets/images/producerconsumer-01.svg" alt="multiple threads">
-                  <div class="caption">
-                    <h3 class="text-center">Producer Consumer</h3>
-                    <p>...</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Description</a>
-                    <a href="#" class="btn btn-default pull-right" role="button"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></p>
+              <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                      <img src="assets/images/producerconsumer-01.svg" alt="multiple threads">
+                      <div class="caption">
+                        <h3 class="text-center">Producer Consumer</h3>
+                        <p><a href="#" class="btn btn-primary" role="button">Description</a>
+                        <a href="#" class="btn btn-default pull-right" role="button"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></p>
+                      </div>
                   </div>
               </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-              <div class="thumbnail">
-                  <img src="assets/images/texteditor-01.svg" alt="text editor">
-                  <div class="caption">
-                    <h3 class="text-center">Text Editor</h3>
-                    <p>...</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Description</a>
-                    <a href="#" class="btn btn-default pull-right" role="button"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></p>
+              <div class="col-sm-6 col-md-4">
+                  <div class="thumbnail">
+                      <img src="assets/images/texteditor-01.svg" alt="text editor">
+                      <div class="caption">
+                        <h3 class="text-center">Text Editor</h3>
+                        <p><a href="#" class="btn btn-primary" role="button">Description</a>
+                        <a href="#" class="btn btn-default pull-right" role="button"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></p>
+                      </div>
                   </div>
               </div>
           </div>
       </div>
+      <!--end project section-->
+      <!-- contact me section -->
+      <div class="container">
+          <div class="row">
+              <div class="col-md-offset-1 col-md-10">
+                  <h1 class="text-center" id="contact"> Contact </h1>
+                  <h3 class="text-center">If you would like to see my resume or contact me about anything else please fill out the form below and I will reply as soon as possible.</h3>
+                  <form class="form-horizontal">
+                      <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-8">
+                          <input type="email" class="form-control" id="inputEmail3" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-8">
+                          <input type="password" class="form-control" id="inputPassword3" placeholder="Email">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPassword3" class="col-sm-2 control-label">Message</label>
+                        <div class="col-sm-8">
+                          <textarea class="form-control" rows="6" maxlength="750" placeholder="Enter your message here"></textarea>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <button type="submit" class="btn btn-default">Send<i class="fa fa-paper-plane-o icon" aria-hidden="true"></i></button>
+                        </div>
+                      </div>
+                </form>
+              </div>
+          </div>
+      </div>
+      <!-- end of contact me section -->
   </body>
 </html>

@@ -36,13 +36,9 @@
 }
 
 .about_me{
-    padding-left:50px;
-    padding-right:50px;
     margin-top:50px;
 }
 .projects{
-    padding-left:50px;
-    padding-right:50px;
     margin-top:50px;
 }
 .projects > h1{
@@ -58,4 +54,12 @@
 .thumbnail{
     border: solid;
     border-color: black;
+}
+
+.icon{
+    padding-left: 10px;
+}
+
+.project-opacity{
+    opacity: 0.5;
 }
