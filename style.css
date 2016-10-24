@@ -38,10 +38,7 @@
 .about_me{
     margin-top:50px;
 }
-.projects{
-    margin-top:50px;
-}
-.projects > h1{
+.projects h1{
     margin-left:10px;
     margin-bottom:30px;
 }
@@ -60,6 +57,7 @@
     padding-left: 10px;
 }
 
-.project-opacity{
-    opacity: 0.5;
+.seperator{
+    margin-top:50px;
+    margin-bottom:50px;
 }
