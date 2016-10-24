@@ -13,10 +13,16 @@
     color:white;
     padding-left:25px;
 }
+
+.extra-padding{
+    padding-left:35px;
+}
+
 .box{
     border: red 5px solid;
     max-width:300px;
     min-width:299px;
+    margin-left:35px;
 }
 .navigation{
     margin-left:50px;
